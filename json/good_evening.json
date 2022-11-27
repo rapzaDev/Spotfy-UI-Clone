@@ -1,0 +1,62 @@
+[
+    {
+        "id": 7,
+        "image": "assets/cover7.png",
+        "label": "Power Walking"
+    },
+    {
+        "id": 15,
+        "image": "assets/top2.png",
+        "label": "Top 50 Global"
+    },
+    {
+        "id": 8,
+        "image": "assets/cover8.png",
+        "label": "Reading"
+    },
+    {
+        "id": 9,
+        "image": "assets/cover9.png",
+        "label": "Long Drive"
+    },
+    {
+        "id": 14,
+        "image": "assets/top1.png",
+        "label": "Top 50"
+    },
+    {
+        "id": 10,
+        "image": "assets/cover10.png",
+        "label": "Dota"
+    },
+    {
+        "id": 11,
+        "image": "assets/cover11.png",
+        "label": "Focus"
+    },
+    {
+        "id": 16,
+        "image": "assets/top3.png",
+        "label": "Top 50 Viral"
+    },
+    {
+        "id": 12,
+        "image": "assets/cover12.png",
+        "label": "Trippy Trip"
+    },
+    {
+        "id": 13,
+        "image": "assets/cover13.png",
+        "label": "More Ideas"
+    },
+    {
+        "id": 5,
+        "image": "assets/cover5.png",
+        "label": "Rap 90's"
+    },
+    {
+        "id": 3,
+        "image": "assets/cover3.png",
+        "label": "Power Gaming"
+    }
+]

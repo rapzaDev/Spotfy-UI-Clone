@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "image": "assets/radio1.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 2,
+        "image": "assets/radio2.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 3,
+        "image": "assets/radio3.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 4,
+        "image": "assets/radio4.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 5,
+        "image": "assets/radio5.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 6,
+        "image": "assets/radio6.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    },
+    {
+        "id": 7,
+        "image": "assets/radio7.png",
+        "label": "The Prodigy, Boris Brejcha, Jeff Mills, The Chemical Brothers"
+    }
+]

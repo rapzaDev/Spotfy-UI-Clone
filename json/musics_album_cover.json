@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "assets/cover1.png",
+        "label": "Best Mode"
+    },
+    {
+        "id": 2,
+        "image": "assets/cover2.png",
+        "label": "Coding Mix"
+    },
+    {
+        "id": 3,
+        "image": "assets/cover3.png",
+        "label": "Power Gaming"
+    },
+    {
+        "id": 4,
+        "image": "assets/cover4.png",
+        "label": "Relaxing"
+    },
+    {
+        "id": 5,
+        "image": "assets/cover5.png",
+        "label": "Rap 90's"
+    },
+    {
+        "id": 6,
+        "image": "assets/cover6.png",
+        "label": "Night Work"
+    }
+]

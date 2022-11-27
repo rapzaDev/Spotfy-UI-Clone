@@ -1,0 +1,37 @@
+[
+    {
+        "id": 7,
+        "image": "assets/cover7.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 8,
+        "image": "assets/cover8.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 9,
+        "image": "assets/cover9.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 10,
+        "image": "assets/cover10.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 11,
+        "image": "assets/cover11.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 12,
+        "image": "assets/cover12.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    },
+    {
+        "id": 13,
+        "image": "assets/cover13.png",
+        "label": "Nirvana, AC/DC, Red Hot Chili Peppers, Pink Floyd, Black Sabbath"
+    }
+]
