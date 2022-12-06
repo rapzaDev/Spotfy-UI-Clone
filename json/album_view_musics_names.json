@@ -1,0 +1,26 @@
+[
+    {
+        "band": "Soundgarden",
+        "music": "Black Hole Sun"
+    },
+    {
+        "band": "Nirvana",
+        "music": "Smells Like Teen Spirit"
+    },
+    {
+        "band": "Pearl Jam",
+        "music": "Do The Evolution"
+    },
+    {
+        "band": "Guns N' Roses",
+        "music": "November Rain"
+    },
+    {
+        "band": "Foo Fighters",
+        "music": "Everlong"
+    },
+    {
+        "band": "No Doubt",
+        "music": "Just A Girl"
+    }
+]

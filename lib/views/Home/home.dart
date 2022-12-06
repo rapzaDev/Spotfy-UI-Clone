@@ -18,6 +18,7 @@ class _HomeViewState extends State<HomeView> {
   List? _musicListData;
   List? _recentMusicData;
   List? _radioMusicsData;
+  List? _albumMusicNames;
 
   @override
   void initState() {
@@ -26,6 +27,7 @@ class _HomeViewState extends State<HomeView> {
     getMusicsListData();
     getBasedOnRecentListeningMusicsListData();
     getRadioListData();
+    getAlbumMusicsNames();
   }
 
   @override
@@ -33,7 +35,7 @@ class _HomeViewState extends State<HomeView> {
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
 
-    List data = _musicListData ?? [];
+    List musicListData = _musicListData ?? [];
     List recentMusicData = _recentMusicData ?? [];
     List radioMusicsData = _radioMusicsData ?? [];
 
@@ -107,7 +109,7 @@ class _HomeViewState extends State<HomeView> {
                           ),
                           const SizedBox(height: 16),
                           MusicsList(
-                            data: data,
+                            data: musicListData,
                             height: screenHeight,
                             width: screenWidth,
                           ),
@@ -175,11 +177,24 @@ class _HomeViewState extends State<HomeView> {
     });
   }
 
+  getAlbumMusicsNames() async {
+    await DefaultAssetBundle.of(context)
+        .loadString("json/album_view_musics_names.json")
+        .then((data) {
+      setState(() {
+        _albumMusicNames = jsonDecode(data);
+      });
+    });
+  }
+
   onAlbumTap() {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => const AlbumView(),
+        builder: (context) => AlbumView(
+          data: _musicListData!,
+          musicNames: _albumMusicNames!,
+        ),
       ),
     );
   }
